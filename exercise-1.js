@@ -7,3 +7,6 @@ const car = {
   country: 'Japan',
   coupe: true,
 };
+
+const {manufacturer, model, country, coupe} = car;
+console.log(manufacturer, model, country, coupe);
